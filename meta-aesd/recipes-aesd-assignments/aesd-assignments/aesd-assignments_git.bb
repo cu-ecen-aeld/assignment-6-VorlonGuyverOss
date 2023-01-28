@@ -10,7 +10,8 @@ SRC_URI = "git://git@github.com/cu-ecen-aeld/assignments-3-and-later-VorlonGuyve
 PV = "1.0+git${SRCPV}"
 # TODO: set to reference a specific commit hash in your assignment repo
 #SRCREV = "f99b82a5d4cb2a22810104f89d4126f52f4dfaba" // <-- example the class started with
-SRCREV = "bc78feac203653c4b2af5496985d37383c22f9f2"  #<-- assignment6-part-1-complete
+#SRCREV = "bc78feac203653c4b2af5496985d37383c22f9f2"  #<-- assignment6-part-1-complete
+SRCREV = "21d0bd59d04248a175ab5afcf9ddbe5546f2593e"  #<-- Test Makefile modifications
 
 # This sets your staging directory based on WORKDIR, where WORKDIR is defined at 
 # https://docs.yoctoproject.org/ref-manual/variables.html?highlight=workdir#term-WORKDIR
